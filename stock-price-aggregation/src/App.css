@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.app-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.chart-container {
+  width: 100%;
+  max-width: 100%;
+  height: 400px; /* Fixed height */
+  margin-bottom: 20px;
+  position: relative; /* Ensure canvas respects parent bounds */
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.heatmap-container {
+  margin-top: 20px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.heatmap-canvas {
+  max-width: 100%;
+}
+
+.MuiSelect-select {
+  padding: 10px !important;
+}
+
+.error-message {
+  color: red;
+  text-align: center;
+  margin-top: 20px;
+}
